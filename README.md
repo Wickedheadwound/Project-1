@@ -104,6 +104,7 @@ SSH into the control node and follow the steps below:
 
 _TODO: Answer the following questions to fill in the blanks:_
 - Install-elk.yml and you would put it in the /etc/ansible folder.
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+- /etc/ansible/hosts you would be able to add the internal IP address that you would like to have installed on that playbook.
 - http://"Elk-External-IP":5601
+
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
