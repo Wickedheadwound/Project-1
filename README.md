@@ -67,9 +67,12 @@ Ansible was used to automate configuration of the ELK machine. No configuration 
 - Updates with playbooks.
 
 The playbook implements the following tasks:
-- _TODO: In 3-5 bullets, explain the steps of the ELK installation play. E.g., install Docker; download image; etc._
-- ...
-- ...
+- Installs Docker
+- Enables Docker on the server
+- Installs ELK data container
+- Installs Python
+- Installs Metricbeat
+- Increases Virtual Memory
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
@@ -77,7 +80,9 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
-- _TODO: List the IP addresses of the machines you are monitoring_
+- Web-1 = IP:10.0.0.8
+- Web-2 = IP:10.0.0.9
+- Web-3 = IP:10.0.0.10
 
 We have installed the following Beats on these machines:
 - _TODO: Specify which Beats you successfully installed_
